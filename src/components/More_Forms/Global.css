@@ -1,0 +1,34 @@
+.wrapper{
+    width: 400px;
+    margin: 20px auto;
+}
+
+.form_container{
+    width: 100%;
+    border: black 1px solid;
+}
+
+.form_line{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+
+.input{
+    width: 70%;
+}
+
+.btn{
+    margin: auto;
+}
+
+.display_info{
+    width: 100%;
+    padding: 20px;
+}
+.validations{
+    text-align: center;
+    color: red;
+}

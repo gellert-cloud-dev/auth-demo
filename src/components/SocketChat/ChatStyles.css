@@ -1,0 +1,94 @@
+.socketChat{
+    margin: auto;
+    padding: 0px 15px 0px 15px;
+    max-width: 500px;
+    min-width: 300px;
+    min-height: 650px;
+    max-height: 100vh;
+}
+.header{
+    text-align: center;
+    height: 10vh;
+    font-size: 25px;
+    color: white;
+}
+.chatNameForm{
+    display: flex;
+    justify-content: space-between;
+    height: 55px;
+    border-radius: 17px;
+    background-color: white;
+    padding: 2px;
+}
+.chatName{
+    width: 80%;
+    margin: auto;
+    margin-left: 15px;
+    border-radius: 17px;
+    border: none;
+    padding: 15px;
+    background-color: white;
+    font-size: 17px;
+}
+.submitName{
+    border-radius: 17px;
+    font-size: 20px;
+    padding: 14px;
+    background-color: rgb(110, 106, 106);
+    color: white
+}
+.messageDisplayWindow{
+    height: 65vh;
+    overflow: scroll;
+    overflow-x: hidden;
+    margin-bottom: 15px;
+}
+.messageDisplayBubble{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 60%;
+    color: black;
+    margin-bottom: 15px;
+    overflow-wrap: break-word;
+}
+.myMessageDisplayBubble{
+    background-color: rgb(97, 95, 95);
+    padding: 10px;
+    border-radius: 10px;
+    width: 60%;
+    color: white;
+    margin-bottom: 15px;
+    margin-left: 35%;
+    overflow-wrap: break-word;
+}
+.chatMessageForm{
+    width: auto;
+    height: fit-content;
+    display: flex;
+    /* border-radius: 15px;
+    background-color: white; */
+}
+.chatMessage{
+    width: 100%;
+    border: 2px black solid;
+    border-radius: 15px;
+    padding: 5px 30px 5px 10px ;
+    font-size: 18px;
+    height: 60%;
+    max-height: 100px;
+    resize: none;
+}
+.sendButton{
+    border-radius: 15px;
+    border: white 3px solid;
+    width: 100px;
+    position: relative;
+    left: -0px;
+    margin-top: .1vh;
+    height: 9.3vh;
+    font-size: 17px;
+    padding: 5px;
+    background-color: rgb(110, 106, 106);
+    color: white;
+}
